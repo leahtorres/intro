@@ -10,6 +10,6 @@ space = "C:/Users/leah_torres/Documents/Audacity/space.wav"
 end
 #These last three samples will be how my intro will end.
 #The three last samples have a sustain so it takes longer to stop, it like streatches the sound.
-sample :bass_thick_c, sustain: 4
-sample introjonas, sustain: 4, amp: 2
-sample :bass_hit_c, sustain: 4
+sample :bass_thick_c, sustain: 3
+sample introjonas, sustain: 1, amp: 2
+sample :bass_hit_c, sustain: 2
