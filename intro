@@ -1,19 +1,15 @@
 #Intro to the song
 introjonas = "C:/Users/leah_torres/Documents/Audacity/intro.wav"
 space = "C:/Users/leah_torres/Documents/Audacity/space.wav"
-live_loop :bass do
+#the sample introjonas will play two times with the bass.
+2. times do
+  sample introjonas, amp: 2
+  sleep 6
   sample :bass_trance_c, amp: 0.5
   sleep 1
 end
-live_loop :introjonas do
-  sample introjonas, amp: 2
-  sleep 7
-end
-=begin
-live_loop :bass do
-  stop
-end
-live_loop :introjonas do
-  stop
-end
-=end
+#These last three samples will be how my intro will end.
+#The three last samples have a sustain so it takes longer to stop, it like streatches the sound.
+sample :bass_thick_c, sustain: 4
+sample introjonas, sustain: 4, amp: 2
+sample :bass_hit_c, sustain: 4
