@@ -1,0 +1,5 @@
+#outro
+outro = "C:/Users/leah_torres/Documents/Audacity/outro.wav"
+#I will play this sample for 9secs,I wanted to end it like the end of solo guitaring.
+sample outro
+sleep 1
