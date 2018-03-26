@@ -1,0 +1,17 @@
+#transition
+use_bpm 147
+#Going to play three different samples in unison with an amp of 5, and it will only rest for a second.
+live_loop :bass do
+  sample :ambi_glass_hum, amp: 5
+  sleep 1
+  sample :ambi_dark_woosh, amp: 5
+  sleep 1
+  sample :bass_trance_c, amp: 5
+  sleep 1
+end
+#When Im ready I will remove the begin and end to bring my transition to an end.
+=begin
+live_loop :bass do
+  stop
+end
+=end
